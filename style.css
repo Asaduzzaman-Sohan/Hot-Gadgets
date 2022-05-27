@@ -62,6 +62,10 @@ body{
 } */
 
 
+
+
+
+/* Slide Section */
 .carousel-item {
     padding: 20px 40px;
 }
@@ -174,6 +178,16 @@ li.indic-2 {
 }
 
 
+
+
+
+
+
+
+
+
+/* Card Section 1 & 2 */
+
 .card-deck {
     text-align: center;
     padding: 40px 5px;
@@ -194,6 +208,12 @@ li.indic-2 {
 }
 
 
+.row-bottom{
+    padding: 15px;
+    text-align: center;
+    margin: auto;
+}
+
 .cat-title {
     text-align: center;
 }
@@ -205,6 +225,14 @@ li.indic-2 {
     background-image: linear-gradient(to right, rgb(255, 217, 0) 0%, rgb(255, 187, 0) 100%);
     margin: auto;
 }
+
+
+
+
+
+
+
+/* Categories Section */
 
 
 .cat1-div {
@@ -231,12 +259,22 @@ li.indic-2 {
 }
 
 
-.cat3 {
-    margin: 0;
-    padding: 10px;
+
+.cat3{
+    margin-left: 50px;
+    overflow: hidden;
+}
+
+.col-sm-12{
+    margin: auto;
+    width: 100;
 }
 
 
+
+
+
+/* Footer */
 
 footer{
     text-align: center;
