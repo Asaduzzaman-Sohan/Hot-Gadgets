@@ -1,0 +1,278 @@
+.container-section {
+    margin-top: 50px;
+
+
+}
+
+/* .container-fluid {
+    height: 550px;
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+} */
+
+
+/* Hide in Other Small Devices */
+
+
+/* Landscape tablets and medium desktops */
+/* @media (min-width: 992px) and (max-width: 1368px) {
+
+    .container-fluid {
+        background-image: none;
+        height: 400px;
+    }
+
+} */
+
+/* Portrait tablets and small desktops */
+/* @media (min-width: 768px) and (max-width: 992px) {
+
+    .container-fluid {
+        background-image: none;
+        height: 370px;
+    }
+
+} */
+
+/* Landscape phones and portrait tablets */
+/* @media (min-width:480px) and (max-width: 768px) {
+
+    .container-fluid {
+        background-image: none;
+        height: 700px;
+    }
+
+} */
+
+/* Portrait phones and smaller */
+/* @media (max-width: 480px) {
+
+    .container-fluid {
+        background-image: none;
+    }
+    .container-section {
+        margin-top: 20px;
+    }
+
+    
+} */
+
+
+.carousel-item {
+    padding: 20px 40px;
+}
+
+
+.buy-now-button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+
+p {
+    text-align: justify;
+}
+
+li.active.indic {
+    background-image: linear-gradient(to right, rgb(255, 217, 0) 0%, rgb(255, 187, 0) 100%);
+    width: 48px;
+    height: 8px;
+    border-radius: 16px;
+}
+
+li.indic {
+    width: 15px;
+    height: 8px;
+    border-radius: 60%;
+    background-color: gray;
+}
+
+
+li.active.indic-1 {
+    background-image: linear-gradient(to right, rgb(0, 247, 255) 0%, rgb(0, 119, 255) 100%);
+    width: 48px;
+    height: 8px;
+    border-radius: 16px;
+}
+
+li.indic-1 {
+    width: 15px;
+    height: 8px;
+    border-radius: 60%;
+    background-color: gray;
+}
+
+
+li.active.indic-2 {
+    background-image: linear-gradient(to right, rgb(255, 187, 0) 0%, rgb(255, 136, 0) 100%);
+    width: 48px;
+    height: 8px;
+    border-radius: 16px;
+}
+
+li.indic-2 {
+    width: 15px;
+    height: 8px;
+    border-radius: 60%;
+    background-color: gray;
+}
+
+.carousel-control-prev {
+    width: 22px;
+    height: 22px;
+    background-image: linear-gradient(to right, rgb(226, 200, 50) 0%, rgb(255, 136, 0) 100%);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.carousel-control-next {
+    width: 22px;
+    height: 22px;
+    background-image: linear-gradient(to right, rgb(0, 247, 255) 0%, rgb(0, 119, 255) 100%);
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
+
+.a-class {
+    text-align: right;
+}
+
+.link-color {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.link-color:hover {
+    color: rgb(11, 170, 170);
+    text-decoration: none;
+}
+
+.device-row {
+    margin: 70px 0 10px 0;
+}
+
+
+.caro-left {
+    background-image: url(images/bg-image.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+    padding-left: 30px;
+
+}
+
+
+
+.card-deck {
+    text-align: center;
+    padding: 40px 5px;
+
+}
+
+.card {
+    padding: 40px 20px 0 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 25px gray;
+}
+
+.card-footer {
+    border-top: none;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+
+.cat-title {
+    text-align: center;
+}
+
+.border-box {
+    width: 100px;
+    height: 7px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgb(255, 217, 0) 0%, rgb(255, 187, 0) 100%);
+    margin: auto;
+}
+
+
+.cat1 {
+    text-align: center;
+    margin: auto;
+    padding-left: 30px;
+}
+
+
+.cat1-div {
+    width: 185px;
+    height: 200px;
+    box-shadow: 5px 5px 50px lightgray;
+    margin-top: 100px;
+    margin-left: 7px;
+    border-radius: 10px 0 10px 0;
+}
+
+
+.cat2 {
+    text-align: center;
+    margin: auto;
+
+}
+
+.cat2-div-1 {
+    width: 185px;
+    height: 200px;
+    box-shadow: 5px 5px 50px lightgray;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 10px 0 10px 0;
+
+}
+
+
+.cat2-div-2 {
+    width: 185px;
+    height: 200px;
+    box-shadow: 5px 5px 50px lightgray;
+    margin-top: 20px;
+    border-radius: 10px 0 10px 0;
+    margin-right: 10px;
+
+}
+
+
+.cat3 {
+    text-align: center;
+    margin: auto;
+
+
+}
+
+.img-bottom {
+    margin-top: 40px;
+}
+
+
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    padding: 33px 0 33px 0;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, gold 0%, cyan 100%);
+}
